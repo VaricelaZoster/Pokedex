@@ -23,7 +23,7 @@ const page = () => {
       return;
     }
     else{
-      router.push(`/pokemon?name=${input}`);
+      router.push(`/pokemon?name=${input.trim()}`);
     }
 
   }
